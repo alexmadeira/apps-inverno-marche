@@ -16,37 +16,37 @@ export default function Chocolate() {
       <ChocolateItem
         src={chocolate1}
         speed={-0.1}
-        top={100}
+        top={10}
         className="chocolate-1"
       />
       <ChocolateItem
         src={chocolate2}
         speed={-0.2}
-        top={200}
+        top={20}
         className="chocolate-2"
       />
       <ChocolateItem
         src={chocolate5}
         speed={0.2}
-        top={350}
+        top={70}
         className="chocolate-3"
       />
       <ChocolateItem
         src={chocolate3}
         speed={0.3}
-        top={400}
+        top={40}
         className="chocolate-4"
       />
       <ChocolateItem
         src={chocolate4}
         speed={-0.25}
-        top={100}
+        top={10}
         className="chocolate-5"
       />
       <ChocolateItem
         src={chocolate5}
         speed={-0.2}
-        top={1}
+        top={100}
         className="chocolate-6"
       />
     </Container>

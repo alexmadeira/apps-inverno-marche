@@ -12,8 +12,6 @@ import Tomate from '~/components/parallax/Tomate';
 import Chocolate from '~/components/parallax/Chocolate';
 import Salsa from '~/components/parallax/Salsa';
 
-// import { Slide } from './styles';
-
 export default function Page() {
   const [page, setPage] = useState(0);
 
@@ -24,15 +22,15 @@ export default function Page() {
       <Car />
 
       <FullPage afterChange={({ to }) => setPage(to)}>
-        <Slide>
+        <Slide style={{ position: 'relative' }}>
           <Tomate />
           <Section title="A cada R$ 100* em compras no St. Marche, ganhe 1 cupom e concorra a 3 MINI Countryman." />
         </Slide>
-        <Slide>
+        <Slide style={{ position: 'relative' }}>
           <Chocolate />
           <Section title="Já é cliente Você Marche? Cadastre-se através do app ou no nosso site." />
         </Slide>
-        <Slide>
+        <Slide style={{ position: 'relative' }}>
           <Salsa />
           <Section title="Agora é só descobrir o St. Marche mais próximo e garantir seu cupom!" />
         </Slide>

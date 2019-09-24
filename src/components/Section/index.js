@@ -1,11 +1,18 @@
-import React, { useContext } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import { Container, Title } from './styles';
+import { Container } from './styles';
 
-export default function Section({ title }) {
+function Section({ title }) {
   return (
     <Container>
-      <Title>{title}</Title>
+      <h1>{title}</h1>
     </Container>
   );
 }
+
+Section.propTypes = {
+  title: PropTypes.string.isRequired,
+};
+
+export default Section;

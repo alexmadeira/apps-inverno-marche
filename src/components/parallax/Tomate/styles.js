@@ -38,6 +38,9 @@ export const Container = styled.div`
     left: 70%;
     width: 160px;
     height: 160px;
+    img {
+      transform: rotate(98deg);
+    }
   }
   .tomato-6 {
     position: absolute;
