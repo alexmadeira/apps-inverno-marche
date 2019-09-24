@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import '~/config/ReactotronConfig';
+
+import GlobalStyle from '~/styles/global';
+
+import Page from '~/Page';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Page />
+      {/*
+      A cada R$ 100* em compras no St. Marche, ganhe 1 cupom e concorra a 3 MINI Countryman.
+      Já é cliente Você Marche? Cadastre-se através do app ou no nosso site.
+Agora é só descobrir o St. Marche mais próximo e garantir seu cupom!
+       */}
+    </>
   );
 }
 
