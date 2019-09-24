@@ -6,6 +6,7 @@ import { PageProvider } from '~/contexts/PageContext';
 import Nav from '~/components/Nav';
 import Logo from '~/components/Logo';
 import Car from '~/components/Car';
+import Footer from '~/components/Footer';
 import Section from '~/components/Section';
 
 import Tomate from '~/components/parallax/Tomate';
@@ -35,6 +36,7 @@ export default function Page() {
           <Section title="Agora é só descobrir o St. Marche mais próximo e garantir seu cupom!" />
         </Slide>
       </FullPage>
+      <Footer />
     </PageProvider>
   );
 }
